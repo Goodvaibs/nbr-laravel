@@ -1,0 +1,86 @@
+<?php
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+return [
+    'PASSWORD_GRANT_TYPE' => 'password',
+    'CLIENT_ID' => 3,
+    'CLIENT_SECRET' => 'GCKy0UkJyiMUJhEnjovCdjEw4kxZD53kSOwpIr9w',
+    'SCOPE' => '',
+    'ERROR' => [
+        'CODE' => [
+            'OK' => 200,
+            'UNAUTHORISED' => 401,
+            'BAD_REQUEST' => 400,
+        ]
+    ],
+    'MESSAGE' => [
+        'USER_REGISTER_FAIL' => 'Failed to register user! Please try again.',
+        'USER_REGISTER_SUCCESS' => 'User registered successfully!',
+        'ADMIN_REGISTER_SUCCESS' => 'Admin registered successfully!',
+        'USER_LOGIN_SUCCESS' => 'Logged in successfully!',
+        'EMAIL_NOT_FOUND' => 'Email not found!',
+        'INVALID_CREDENTIALS' => 'Invalid credentials',
+        'USER_NOT_EXIST' => 'User does not exist!',
+        'USER_INACTIVATED' => 'User inactivated successfully!',
+        'USER_DELETED' => 'User deleted successfully!',
+        'LOGIN_SUCCESS' => 'Login successful',
+        'INVALID_DATA' => 'Invalid data!',
+        'DATA_FETCHED' => 'List fecthed successfully!',
+        'TYPE_REQUIRED' => '',
+        'INVALID_USER' => 'Invalid user!',
+        'NAVBAR_ADDED'=>'Navbar added successfully!',
+        'FAILED_NAVBAR_ADD'=>'Failed to add Navbar',
+        'NAVBAR_UPDATE'=>'Navbar updated successfully!',
+        'SUCCESS'=>'Success',
+        'NAVBAR_DELETED'=>'Navbar deleted successfully!',
+        'SUBNAVBAR_ADDED'=>'Sub Navbar added successfully!',
+        'FAILED_SUBNAVBAR_ADD'=>'Failed to add Sub Navbar',
+        'SUBNAVBAR_DELETED'=>'Sub Navbar deleted successfully!',
+        'STATICPAGE_ADDED'=>'Static page added successfully!',
+        'FAILED_STATICPAGE_ADD'=>'Failed to add Static page',
+        'STATICPAGE_DELETED'=>'Static page deleted successfully!',
+        'NEWS_ADDED'=>'News added successfully!',
+        'FAILED_NEWS_ADD'=>'Failed to add News',
+        'NEWS_DELETED'=>'News deleted successfully!',
+        'TITLE_LOGO_ADDED'=>'Title logo added successfully!',
+        'FAILED_TITLE_LOGO_ADD'=>'Failed to add title logo',
+        'TITLE_LOGO_DELETED'=>'Title logo deleted successfully!',
+        'GALLERY_ADDED'=>'Image added successfully!',
+        'FAILED_GALLERY_ADD'=>'Failed to add Image',
+        'GALLERY_DELETED'=>'Image deleted successfully!',
+        'APPLICATION_FORM_ADDED'=>'Application form added successfully!',
+        'FAILED_APPLICATION_FORM_ADD'=>'Failed to add application form',
+        'APPLICATION_FORM_DELETED'=>'Application form deleted successfully!',
+        'CATEGORY_ADDED'=>'Category added successfully!',
+        'FAILED_CATEGORY_ADD'=>'Failed to add category',
+        'CATEGORY_DELETED'=>'Category deleted successfully!',
+        'SUBCATEGORY_ADDED'=>'Subcategory added successfully!',
+        'FAILED_SUBCATEGORY_ADD'=>'Failed to add Subcategory',
+        'SUBCATEGORY_DELETED'=>'Subcategory deleted successfully!',
+        'RECORDS_ADDED'=>'Records added successfully!',
+        'FAILED_RECORDS_ADD'=>'Failed to add records',
+        'RECORDS_DELETED'=>'Records deleted successfully!',
+        'VIDEO_ADDED' => 'Video link added successfully!',
+        'FAILED_VIDEO_ADD'=>'Failed to add video',
+        'APPLY_RECORD_ADDED'=> 'Successfully applied for setting a record!',
+        'FAILED_APPLY_RECORDS_ADD' => 'Failed to set a record!',
+        'REPORT_RECORDS_ADDED' => 'Record reported successfully',
+        'FAILED_REPORT_RECORDS_ADD' => 'Failed to report an record!',
+        'INVITE_UMPIRE_ADDED' => 'Umpire invited succesfully!',
+        'FAILED_INVITE_UMPIRE_ADD'=> 'Failed to invite umpire!',
+        'PRIORITY_ADDED' => 'Priority application added succesfully',
+        'FAILED_PRIORITY_ADD' => 'Priority application failed!',
+        'PRIOR_DELETED' => 'Priority Application deleted!',
+        'PRIOR_NOT_DELETED' => 'Could not delete application!',
+        'REP_NOT_DELETED' => 'Record not deleted',
+        'REP_DELETED' => 'Record deleted successfully!',
+        'UMPIRE_NOT_DELETE' => 'Umpire not deleted!',
+        'UMPIRE_DELETE' => 'Umpire deleted successfully!',
+
+    ]
+];
+
